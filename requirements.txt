@@ -1,0 +1,7 @@
+-U openai-whisper
+fastapi
+uvicorn
+sounddevice
+numpy
+scipy
+requests
