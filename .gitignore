@@ -1,1 +1,13 @@
+
+# Arquivos de ambiente virtual (não devem ser versionados)
 venv/
+__pycache__/
+
+# Arquivos de áudio temporários
+*.wav
+*.mp3
+*.m4a
+
+# Logs e arquivos temporários do sistema
+*.log
+temp_*
