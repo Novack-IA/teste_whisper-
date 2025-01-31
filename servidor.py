@@ -6,7 +6,7 @@ import os
 app = FastAPI()
 
 print("🔄 Carregando modelo Whisper...")
-model = whisper.load_model("small")
+model = whisper.load_model("turbo")
 print("✅ Modelo carregado!")
 
 @app.post("/transcribe/")

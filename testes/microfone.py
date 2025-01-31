@@ -5,12 +5,11 @@ import numpy as np
 import whisper
 import wave
 
-DURATION = 5 
+DURATION = 7
 SAMPLERATE = 44100  
-model = whisper.load_model("small")
+model = whisper.load_model("turbo")
 
 def gravar_audio(filename="meu_audio.wav"):
-    # Create 'audios' directory if it doesn't exist
     if not os.path.exists('audios'):
         os.makedirs('audios')
     
